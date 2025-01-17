@@ -67,5 +67,5 @@ from .filter import format_datetime
 app.jinja_env.filters['datetime'] = format_datetime
     
     #return app
-# serve(app, listen="*:80")
-serve(app)
+serve(app, listen="*:80")
+# serve(app)
