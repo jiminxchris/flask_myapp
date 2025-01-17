@@ -1,0 +1,73 @@
+.header {
+  background-color: #2563eb;
+  color: white;
+  padding: 5rem 1rem;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.header p {
+  font-size: 1.25rem;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #2563eb;
+}
+
+.card p {
+  color: #666;
+}
+
+.bg-gray {
+  background-color: #f1f1f1;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 0.5rem;
+}
+
+.footer .contact {
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+#navbarNav > ul > li:nth-child(2) > a {
+  background-color: #333;
+  color: #fff;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>게시글 수정</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../static/styles.css" />
+    <link rel="stylesheet" href="../static/board_style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>게시글 수정</h1>
+      </div>
+
+      <form>
+        <div class="form-group">
+          <label for="title">제목</label>
+          <input type="text" id="title" value="안녕하세요, 반갑습니다." />
+        </div>
+
+        <div class="form-group">
+          <label for="author">작성자</label>
+          <input type="text" id="author" value="홍길동" />
+        </div>
+
+        <div class="form-group">
+          <label for="content">내용</label>
+          <textarea id="content">
+안녕하세요.
+
+게시판 테스트 글입니다.
+반갑습니다.</textarea
+          >
+        </div>
+
+        <div class="button-group">
+          <button type="submit" class="btn btn-primary">저장</button>
+          <button
+            type="button"
+            class="btn btn-secondary"
+            onclick="location.href='view.html'"
+          >
+            취소
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
